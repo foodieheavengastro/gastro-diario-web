@@ -1,0 +1,120 @@
+<title>Gastro Diario</title>
+<style>
+  :root{
+    --bg:#faf7f2;
+    --surface:#ffffff;
+    --text:#2b2420;
+    --text-muted:#8a7f73;
+    --accent:#d9541f;
+    --border:#e7dfd4;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#1c1712;
+      --surface:#241d17;
+      --text:#f3ece3;
+      --text-muted:#b3a499;
+      --accent:#f07a3e;
+      --border:#3a2f26;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#1c1712;
+    --surface:#241d17;
+    --text:#f3ece3;
+    --text-muted:#b3a499;
+    --accent:#f07a3e;
+    --border:#3a2f26;
+  }
+
+  * { box-sizing: border-box; }
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Inter",system-ui,-apple-system,sans-serif;
+    line-height:1.65;
+  }
+  .wrap{
+    max-width:680px;
+    margin:0 auto;
+    padding:72px 24px 96px;
+  }
+  .eyebrow{
+    font-family:"Fraunces",Georgia,serif;
+    font-style:italic;
+    color:var(--accent);
+    font-size:0.95rem;
+    margin:0 0 8px;
+  }
+  h1{
+    font-family:"Fraunces",Georgia,serif;
+    font-weight:600;
+    font-size:2.8rem;
+    line-height:1.15;
+    text-wrap:balance;
+    margin:0 0 20px;
+  }
+  .lede{
+    font-size:1.1rem;
+    color:var(--text-muted);
+    max-width:56ch;
+    margin:0 0 40px;
+  }
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:24px 28px;
+    margin:0 0 16px;
+  }
+  .card h2{
+    font-family:"Fraunces",Georgia,serif;
+    font-weight:600;
+    font-size:1.1rem;
+    margin:0 0 8px;
+  }
+  .card p{ margin:0; color:var(--text-muted); max-width:56ch; }
+  .links{
+    display:flex;
+    gap:16px;
+    margin-top:32px;
+    padding-top:32px;
+    border-top:1px solid var(--border);
+  }
+  a{
+    color:var(--accent);
+    text-decoration:none;
+    font-weight:600;
+  }
+  a:hover{ text-decoration:underline; }
+  .contact{
+    margin-top:32px;
+    color:var(--text-muted);
+    font-size:0.9rem;
+  }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,500&family=Inter:wght@400;500;600&display=swap">
+
+<div class="wrap">
+  <p class="eyebrow">Gastro Diario</p>
+  <h1>Curiosidades y tips de cocina, un video al día</h1>
+  <p class="lede">Gastro Diario es un proyecto personal que publica videos cortos con datos curiosos y consejos prácticos de cocina en TikTok.</p>
+
+  <div class="card">
+    <h2>Qué es esto</h2>
+    <p>Una cuenta de TikTok administrada por su propio creador, con contenido generado a partir de un banco propio de curiosidades gastronómicas. No es un producto ni un servicio abierto al público: es un proyecto personal.</p>
+  </div>
+
+  <div class="card">
+    <h2>Integración con TikTok</h2>
+    <p>Esta página existe como referencia pública para la integración de Gastro Diario con la Content Posting API de TikTok, usada exclusivamente para publicar en la cuenta de su propio creador.</p>
+  </div>
+
+  <div class="links">
+    <a href="https://claude.ai/code/artifact/ac5cf73a-a7b7-4085-b5c2-0807534f7b43">Política de Privacidad</a>
+    <a href="https://claude.ai/code/artifact/9047f610-a0a9-4f51-9333-19c79875888b">Términos de Servicio</a>
+  </div>
+
+  <p class="contact">Contacto: foodieheavengastro@gmail.com</p>
+</div>

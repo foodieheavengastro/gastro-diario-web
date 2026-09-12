@@ -1,0 +1,143 @@
+<title>Términos de Servicio — Gastro Diario</title>
+<style>
+  :root{
+    --bg:#faf7f2;
+    --surface:#ffffff;
+    --text:#2b2420;
+    --text-muted:#8a7f73;
+    --accent:#d9541f;
+    --border:#e7dfd4;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#1c1712;
+      --surface:#241d17;
+      --text:#f3ece3;
+      --text-muted:#b3a499;
+      --accent:#f07a3e;
+      --border:#3a2f26;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#1c1712;
+    --surface:#241d17;
+    --text:#f3ece3;
+    --text-muted:#b3a499;
+    --accent:#f07a3e;
+    --border:#3a2f26;
+  }
+
+  * { box-sizing: border-box; }
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Inter",system-ui,-apple-system,sans-serif;
+    line-height:1.65;
+  }
+  .wrap{
+    max-width:680px;
+    margin:0 auto;
+    padding:64px 24px 96px;
+  }
+  .eyebrow{
+    font-family:"Fraunces",Georgia,serif;
+    font-style:italic;
+    color:var(--accent);
+    font-size:0.95rem;
+    margin:0 0 8px;
+  }
+  h1{
+    font-family:"Fraunces",Georgia,serif;
+    font-weight:600;
+    font-size:2.4rem;
+    line-height:1.15;
+    text-wrap:balance;
+    margin:0 0 12px;
+  }
+  .updated{
+    color:var(--text-muted);
+    font-size:0.9rem;
+    margin:0 0 40px;
+    padding-bottom:32px;
+    border-bottom:1px solid var(--border);
+  }
+  section{ margin:0 0 36px; }
+  h2{
+    font-family:"Fraunces",Georgia,serif;
+    font-weight:600;
+    font-size:1.25rem;
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+    margin:0 0 12px;
+  }
+  h2 .num{
+    color:var(--accent);
+    font-variant-numeric:tabular-nums;
+    font-size:0.95rem;
+  }
+  p{ margin:0 0 14px; max-width:62ch; }
+  ul{ margin:0 0 14px; padding-left:1.3em; }
+  li{ margin:0 0 8px; max-width:60ch; }
+  strong{ font-weight:600; }
+  a{ color:var(--accent); }
+  .contact{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:20px 24px;
+  }
+  .contact p{ margin:0; }
+  .contact .label{
+    color:var(--text-muted);
+    font-size:0.8rem;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    margin-bottom:6px;
+  }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,500&family=Inter:wght@400;500;600&display=swap">
+
+<div class="wrap">
+  <p class="eyebrow">Gastro Diario</p>
+  <h1>Términos de Servicio</h1>
+  <p class="updated">Última actualización: 11 de septiembre de 2026</p>
+
+  <section>
+    <h2><span class="num">1</span> Descripción del servicio</h2>
+    <p>Gastro Diario es un proyecto personal que genera videos cortos de curiosidades y consejos de cocina y los publica en una única cuenta de TikTok, propiedad de su creador. No se ofrece como servicio a terceros ni gestiona cuentas de otras personas.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span> Uso permitido</h2>
+    <p>Esta integración con la API de TikTok está pensada exclusivamente para que el propio creador publique contenido en su propia cuenta. No está diseñada para ser usada por el público general ni para publicar en cuentas de terceros.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span> Contenido publicado</h2>
+    <ul>
+      <li>El contenido generado (guiones, voz e imágenes de fondo) proviene de fuentes con licencia libre de uso.</li>
+      <li>El creador es responsable de revisar cada video antes de publicarlo públicamente.</li>
+      <li>El creador puede eliminar o dejar de publicar contenido en cualquier momento.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">4</span> Sin garantías</h2>
+    <p>El servicio se ofrece "tal cual", sin garantía de disponibilidad continua ni de resultados. El creador no es responsable por interrupciones causadas por cambios en las plataformas de terceros (TikTok, proveedores de voz o de video) que esta integración utiliza.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span> Cambios a estos términos</h2>
+    <p>Estos términos pueden actualizarse; la fecha al inicio de esta página siempre refleja la versión vigente.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span> Contacto</h2>
+    <div class="contact">
+      <p class="label">Correo de contacto</p>
+      <p>foodieheavengastro@gmail.com</p>
+    </div>
+  </section>
+</div>

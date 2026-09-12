@@ -1,0 +1,149 @@
+<title>Política de Privacidad — Gastro Diario</title>
+<style>
+  :root{
+    --bg:#faf7f2;
+    --surface:#ffffff;
+    --text:#2b2420;
+    --text-muted:#8a7f73;
+    --accent:#d9541f;
+    --border:#e7dfd4;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#1c1712;
+      --surface:#241d17;
+      --text:#f3ece3;
+      --text-muted:#b3a499;
+      --accent:#f07a3e;
+      --border:#3a2f26;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#1c1712;
+    --surface:#241d17;
+    --text:#f3ece3;
+    --text-muted:#b3a499;
+    --accent:#f07a3e;
+    --border:#3a2f26;
+  }
+
+  * { box-sizing: border-box; }
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Inter",system-ui,-apple-system,sans-serif;
+    line-height:1.65;
+  }
+  .wrap{
+    max-width:680px;
+    margin:0 auto;
+    padding:64px 24px 96px;
+  }
+  .eyebrow{
+    font-family:"Fraunces",Georgia,serif;
+    font-style:italic;
+    color:var(--accent);
+    font-size:0.95rem;
+    margin:0 0 8px;
+  }
+  h1{
+    font-family:"Fraunces",Georgia,serif;
+    font-weight:600;
+    font-size:2.4rem;
+    line-height:1.15;
+    text-wrap:balance;
+    margin:0 0 12px;
+  }
+  .updated{
+    color:var(--text-muted);
+    font-size:0.9rem;
+    margin:0 0 40px;
+    padding-bottom:32px;
+    border-bottom:1px solid var(--border);
+  }
+  section{ margin:0 0 36px; }
+  h2{
+    font-family:"Fraunces",Georgia,serif;
+    font-weight:600;
+    font-size:1.25rem;
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+    margin:0 0 12px;
+  }
+  h2 .num{
+    color:var(--accent);
+    font-variant-numeric:tabular-nums;
+    font-size:0.95rem;
+  }
+  p{ margin:0 0 14px; max-width:62ch; }
+  ul{ margin:0 0 14px; padding-left:1.3em; }
+  li{ margin:0 0 8px; max-width:60ch; }
+  strong{ font-weight:600; }
+  a{ color:var(--accent); }
+  .contact{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:20px 24px;
+  }
+  .contact p{ margin:0; }
+  .contact .label{
+    color:var(--text-muted);
+    font-size:0.8rem;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    margin-bottom:6px;
+  }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,500&family=Inter:wght@400;500;600&display=swap">
+
+<div class="wrap">
+  <p class="eyebrow">Gastro Diario</p>
+  <h1>Política de Privacidad</h1>
+  <p class="updated">Última actualización: 11 de septiembre de 2026</p>
+
+  <section>
+    <h2><span class="num">1</span> Qué es Gastro Diario</h2>
+    <p>Gastro Diario es un proyecto personal, sin fines comerciales, que genera y publica videos cortos con curiosidades y consejos de cocina en una sola cuenta de TikTok administrada por su propio creador. No es un servicio dirigido a terceros ni recopila datos de otros usuarios.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span> Qué información se usa</h2>
+    <p>Al conectar la cuenta de TikTok mediante Login Kit, la aplicación accede únicamente a:</p>
+    <ul>
+      <li>El identificador público de la cuenta (<em>open id</em>).</li>
+      <li>El nombre de usuario y la foto de perfil, para confirmar que se está publicando en la cuenta correcta.</li>
+      <li>El permiso para publicar videos en esa misma cuenta mediante la Content Posting API.</li>
+    </ul>
+    <p>No se solicita ni se accede a mensajes privados, contactos, ni datos de otros usuarios de TikTok.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span> Dónde se guarda la información</h2>
+    <p>Los tokens de acceso se guardan únicamente en un archivo de configuración local, en el equipo del propio creador de la cuenta. No se envían a servidores de terceros, no se venden ni se comparten con nadie.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">4</span> Lo que no se hace</h2>
+    <ul>
+      <li>No se usan cookies de seguimiento ni herramientas de analítica de terceros.</li>
+      <li>No se comparte información con anunciantes.</li>
+      <li>No se accede a cuentas de TikTok distintas a la del propio creador.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span> Cambios a esta política</h2>
+    <p>Si esta política cambia, se actualizará la fecha al inicio de esta página. El uso continuado de la integración implica la aceptación de los cambios.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span> Contacto</h2>
+    <div class="contact">
+      <p class="label">Correo de contacto</p>
+      <p>foodieheavengastro@gmail.com</p>
+    </div>
+  </section>
+</div>
